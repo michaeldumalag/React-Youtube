@@ -10,12 +10,9 @@ const VideoListItem = ({video}) => {
           <img className="media-object" src={imageUrl}/>
         </div>
         <div className="media-body">
-          <div className="media-heading">
-            {title}
-          </div>
+          <div className="media-heading">{title}</div>
         </div>
       </div>
-
     </li>
   );
 };
